@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ALLUVO",
+    "slug": "ALLUVO",
+    "scheme": "alluvo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assests/imgs/splashscreen_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "softwareKeyboardLayoutMode": "adjustResize",
+      "package": "com.ashwv.ALLUVO"
+    },
+    "web": {},
+    "plugins": [
+      "expo-secure-store",
+      "expo-video",
+      "expo-localization",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow ALLUVO to access your camera to record reels.",
+          "microphonePermission": "Allow ALLUVO to access your microphone to record audio with reels."
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "99aae79f-4c9a-4aa8-a9aa-6766f69ec9d8"
+      }
+    }
+  }
+}
